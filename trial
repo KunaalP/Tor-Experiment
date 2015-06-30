@@ -1,0 +1,205 @@
+<rspec type="request" generated_by="Flack" generated="2014-07-07T15:54:13Z" xsi:schemaLocation="http://www.geni.net/resources/rspec/3 http://www.geni.net/resources/rspec/3/request.xsd" xmlns:ns3="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/slice-info/1" xmlns:flack="http://www.protogeni.net/resources/rspec/ext/flack/1" xmlns:client="http://www.protogeni.net/resources/rspec/ext/client/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.geni.net/resources/rspec/3">
+  <ns3:geni_slice_info urn="urn:publicid:IDN+ch.geni.net:witestlab+slice+TORexp" uuid="a581759c-b020-4c4b-b391-6f84285d427e" state="ready" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/slice-info/1"/>
+  <node client_id="Client" component_manager_id="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am" component_id="urn:publicid:IDN+exogeni.net:uhvmsite+node+orca-vm-cloud" component_name="orca-vm-cloud" exclusive="false" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="uh-w4:ab06f83b-5d08-473b-9aee-ce594a43e5ad" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <location latitude="29.72327" longitude="-95.34269" country="Unspecified"/>
+    <sliver_type name="xo.small">
+      <disk_image name="http://geni-images.renci.org/images/standard/debian/deb6.v1.0.10.xml" version="c120b9d79d3f3882114c0e59cce14f671ef9b0db"/>
+    </sliver_type>
+    <interface client_id="Client:if0">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="Client:if1">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="Client:if2">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="Client:if3">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <flack:node_info x="6" y="25" unbound="true"/>
+  </node>
+  <node client_id="Server" component_manager_id="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am" component_id="urn:publicid:IDN+exogeni.net:uhvmsite+node+orca-vm-cloud" component_name="orca-vm-cloud" exclusive="false" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="uh-w4:a2f14223-d4d0-43a1-a53d-3a1ee02bc07f" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <location latitude="29.72327" longitude="-95.34269" country="Unspecified"/>
+    <sliver_type name="xo.small">
+      <disk_image name="http://geni-images.renci.org/images/standard/debian/deb6.v1.0.10.xml" version="c120b9d79d3f3882114c0e59cce14f671ef9b0db"/>
+    </sliver_type>
+    <interface client_id="Server:if0">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="Server:if1">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="Server:if2">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="Server:if3">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <flack:node_info x="0" y="352" unbound="true"/>
+  </node>
+  <node client_id="RelayA" component_manager_id="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am" component_id="urn:publicid:IDN+exogeni.net:uhvmsite+node+orca-vm-cloud" component_name="orca-vm-cloud" exclusive="false" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="uh-w3:02a607ac-d7f0-4db3-9a4c-6f60c6cef19a" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <location latitude="29.72327" longitude="-95.34269" country="Unspecified"/>
+    <sliver_type name="xo.small">
+      <disk_image name="http://geni-images.renci.org/images/standard/debian/deb6.v1.0.10.xml" version="c120b9d79d3f3882114c0e59cce14f671ef9b0db"/>
+    </sliver_type>
+    <interface client_id="RelayA:if0">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayA:if1">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayA:if2">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayA:if3">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <flack:node_info x="82" y="236" unbound="true"/>
+  </node>
+  <node client_id="RelayB" component_manager_id="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am" component_id="urn:publicid:IDN+exogeni.net:uhvmsite+node+orca-vm-cloud" component_name="orca-vm-cloud" exclusive="false" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="uh-w5:7cd4be20-6692-4b51-885a-32c6b390da74" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <location latitude="29.72327" longitude="-95.34269" country="Unspecified"/>
+    <sliver_type name="xo.small">
+      <disk_image name="http://geni-images.renci.org/images/standard/debian/deb6.v1.0.10.xml" version="c120b9d79d3f3882114c0e59cce14f671ef9b0db"/>
+    </sliver_type>
+    <interface client_id="RelayB:if0">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayB:if1">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayB:if2">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayB:if3">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <flack:node_info x="378" y="150" unbound="true"/>
+  </node>
+  <node client_id="RelayC" component_manager_id="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am" component_id="urn:publicid:IDN+exogeni.net:uhvmsite+node+orca-vm-cloud" component_name="orca-vm-cloud" exclusive="false" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="uh-w5:b7c02fdc-e0e8-43ce-b24b-c23fe2776848" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <location latitude="29.72327" longitude="-95.34269" country="Unspecified"/>
+    <sliver_type name="xo.small">
+      <disk_image name="http://geni-images.renci.org/images/standard/debian/deb6.v1.0.10.xml" version="c120b9d79d3f3882114c0e59cce14f671ef9b0db"/>
+    </sliver_type>
+    <interface client_id="RelayC:if0">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayC:if1">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayC:if2">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <interface client_id="RelayC:if3">
+      <flack:interface_info addressBound="false" bound="false"/>
+    </interface>
+    <flack:node_info x="587" y="164" unbound="true"/>
+  </node>
+  <link client_id="lan0" vlantag="2" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="2" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Client:if0"/>
+    <interface_ref client_id="Server:if0"/>
+    <property source_id="Client:if0" dest_id="Server:if0"/>
+    <property source_id="Server:if0" dest_id="Client:if0"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan1" vlantag="7" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="7" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Client:if1"/>
+    <interface_ref client_id="RelayA:if0"/>
+    <property source_id="Client:if1" dest_id="RelayA:if0"/>
+    <property source_id="RelayA:if0" dest_id="Client:if1"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan2" vlantag="5" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="5" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Client:if2"/>
+    <interface_ref client_id="RelayB:if0"/>
+    <property source_id="Client:if2" dest_id="RelayB:if0"/>
+    <property source_id="RelayB:if0" dest_id="Client:if2"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan3" vlantag="11" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="11" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Client:if3"/>
+    <interface_ref client_id="RelayC:if0"/>
+    <property source_id="Client:if3" dest_id="RelayC:if0"/>
+    <property source_id="RelayC:if0" dest_id="Client:if3"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan4" vlantag="10" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="10" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Server:if1"/>
+    <interface_ref client_id="RelayA:if1"/>
+    <property source_id="Server:if1" dest_id="RelayA:if1"/>
+    <property source_id="RelayA:if1" dest_id="Server:if1"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan5" vlantag="9" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="9" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Server:if2"/>
+    <interface_ref client_id="RelayB:if1"/>
+    <property source_id="Server:if2" dest_id="RelayB:if1"/>
+    <property source_id="RelayB:if1" dest_id="Server:if2"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan6" vlantag="8" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="8" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="Server:if3"/>
+    <interface_ref client_id="RelayC:if1"/>
+    <property source_id="Server:if3" dest_id="RelayC:if1"/>
+    <property source_id="RelayC:if1" dest_id="Server:if3"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan7" vlantag="4" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="4" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="RelayA:if2"/>
+    <interface_ref client_id="RelayB:if2"/>
+    <property source_id="RelayA:if2" dest_id="RelayB:if2"/>
+    <property source_id="RelayB:if2" dest_id="RelayA:if2"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan8" vlantag="6" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="6" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="RelayA:if3"/>
+    <interface_ref client_id="RelayC:if2"/>
+    <property source_id="RelayA:if3" dest_id="RelayC:if2"/>
+    <property source_id="RelayC:if2" dest_id="RelayA:if3"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <link client_id="lan9" vlantag="3" xmlns:ns4="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1">
+    <ns4:geni_sliver_info creator_urn="mis294@nyu.edu, urn:publicid:IDN+ch.geni.net+user+mis294" creation_time="2014-07-07T11:07:10.000-04:00" expiration_time="2014-07-13T09:51:46.000-04:00" start_time="2014-07-07T11:07:10.000-04:00" state="ready" resource_id="3" xmlns="http://groups.geni.net/exogeni/attachment/wiki/RspecExtensions/sliver-info/1"/>
+    <component_manager name="urn:publicid:IDN+exogeni.net:uhvmsite+authority+am"/>
+    <interface_ref client_id="RelayB:if3"/>
+    <interface_ref client_id="RelayC:if3"/>
+    <property source_id="RelayB:if3" dest_id="RelayC:if3"/>
+    <property source_id="RelayC:if3" dest_id="RelayB:if3"/>
+    <link_type name="lan"/>
+    <flack:link_info x="-1" y="-1" unboundVlantag="true"/>
+  </link>
+  <client:client_info name="Flack" environment="Flash Version: WIN 14,0,0,125, OS: Windows Vista, Arch: x86, Screen: 1440x900 @ 72 DPI with touchscreen type none" version="v17.26" url="https://www.emulab.net/protogeni/flack-stable/flack.swf"/>
+  <flack:slice_info view="graph"/>
+</rspec>
